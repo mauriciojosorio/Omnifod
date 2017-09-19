@@ -5,7 +5,8 @@
 
 *  {
 	margin: 0;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	padding: 0;
 }
 
@@ -106,15 +107,20 @@ section {
 .meal-photo img {
 	width: 100%;
 	height: auto;
-	transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
-	filter: opacity(0.7);
+	-webkit-filter: opacity(0.7);
+	        filter: opacity(0.7);
 
 }
 
 .meal-photo img:hover {
-	transform: scale(1.03);
-	filter: opacity(1);
+	-webkit-transform: scale(1.03);
+	        transform: scale(1.03);
+	-webkit-filter: opacity(1);
+	        filter: opacity(1);
 }
 
 /*----------------------------*/
@@ -210,6 +216,7 @@ section {
 		font-size: 90%;
 		padding-bottom: 8px;
 		border-bottom: 2px solid transparent;
+		-webkit-transition: 1.5s;
 		transition: 1.5s;
 	}
 
@@ -221,6 +228,7 @@ section {
 header {
 	background-size: cover;
 	background-position: center;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
 	height: 100vh;
 	background-attachment: fixed;
@@ -231,7 +239,8 @@ header {
 	width: 1140px;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 }
 
 /*----------------------------*/
@@ -284,6 +293,7 @@ h2:after {
 	padding: 10px 30px;
 	font-weight: 300;
 border-radius: 200px;
+-webkit-transition: 1s;
 transition: 1s;
 }
 
@@ -339,6 +349,7 @@ margin-bottom: 15px;
 	text-decoration: none;
 	border-bottom: 1px solid #e67e22;
 	border-bottom-width: 1px;
+-webkit-transition: 0.2s;
 transition: 0.2s;
 	}
 
@@ -352,6 +363,7 @@ transition: 0.2s;
 /*----------------------------*/
 
 .testimonials {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),  url(../../resources/img/back-customers.jpg);
 	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(../../resources/img/back-customers.jpg);
 	background-attachment: fixed;
 	background-size: cover;
@@ -405,7 +417,8 @@ cite img {
 	border-radius: 5px;
 	width: 90%;
 	margin-left: 5%;
-	box-shadow: 0 2px 2px grey;
+	-webkit-box-shadow: 0 2px 2px grey;
+	        box-shadow: 0 2px 2px grey;
 }
 
 .plan-box div {
@@ -494,6 +507,7 @@ footer {
 footer a {
 	color: grey;
 	text-decoration: none;
+	-webkit-transition: 1s;
 	transition: 1s;
 }
 
@@ -535,6 +549,7 @@ footer p {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram,{
+	-webkit-transition: 5s;
 	transition: 5s;
 	color: grey;
 }
