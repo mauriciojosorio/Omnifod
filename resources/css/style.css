@@ -195,7 +195,14 @@ section {
 	width: auto;
 	float: left;
 	margin-top: 20px;
+}
 
+.logo-black {
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
 }
 
 .main-nav {
@@ -223,6 +230,36 @@ section {
 	.main-nav li a:hover {
 		border-bottom: 2px solid #e67e22;
 
+	}
+
+	/*----------------------------*/
+	/*STICK NAV BAR*/
+	/*----------------------------*/
+
+	.stick {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: white;
+		box-shadow: 0 2px 2px grey;
+		z-index: 999;
+	}
+
+	.stick .main-nav {
+		margin-top: 18px;
+	}
+
+	.stick .main-nav li a {
+		padding: 17px 0;
+		color: #555;
+	}
+
+	.stick .logo-black {
+		display: block;
+	}
+	.stick .logo {
+		display: none;
 	}
 
 header {
