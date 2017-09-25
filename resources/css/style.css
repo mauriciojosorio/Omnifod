@@ -610,3 +610,19 @@ footer p {
 	color: #e95950;
 
 }
+
+
+/*----------------------------*/
+/*ANIMATIONS*/
+/*----------------------------*/
+
+#animation1,
+#animation2,
+#animation4,
+#animation3 {
+	opacity: 0;
+	animation-duration: 1s;
+}
+#animation3.animated {
+	opacity: 1;
+}
