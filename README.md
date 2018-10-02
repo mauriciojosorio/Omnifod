@@ -1,3 +1,3 @@
 # Omnifood-website
 
-Website project from UDEMY.  Food catering company
+Website project for food catering company
